@@ -7,6 +7,8 @@ import string
 from nltk.stem.porter import PorterStemmer
 ps = PorterStemmer()
 from PIL import Image
+nltk.download('punkt')
+
 
 image = Image.open('me2.png')
 
