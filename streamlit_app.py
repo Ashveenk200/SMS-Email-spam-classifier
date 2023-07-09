@@ -7,7 +7,7 @@ from nltk.stem.porter import PorterStemmer
 ps = PorterStemmer()
 from PIL import Image
 
-image = Image.open('D:\\0project\\own project masti\\data science project\\email spam classifer\\me2.png')
+image = Image.open('me2.png')
 
 st.image(image, caption='EMAIL')
 
