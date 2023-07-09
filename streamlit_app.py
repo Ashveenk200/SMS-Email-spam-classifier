@@ -8,7 +8,7 @@ from nltk.stem.porter import PorterStemmer
 ps = PorterStemmer()
 from PIL import Image
 nltk.download('punkt')
-
+nltk.download('stopwords')
 
 image = Image.open('me2.png')
 
