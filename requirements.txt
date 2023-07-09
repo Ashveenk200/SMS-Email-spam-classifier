@@ -2,4 +2,3 @@ streamlit==0.84.1
 nltk
 Pillow==8.3.1
 
-pip install == 22.3.1
